@@ -49,9 +49,6 @@
                                 </li>
                             @endif
                         @else
-                            <li class="nav-item pr-3">
-                                <a class="nav-link" href="/profile/{{ $post->user->id }}">Profile</a>
-                            </li>
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->username }} <span class="caret"></span>
